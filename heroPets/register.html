@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+<title>HeroPets</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" />
+<link rel="stylesheet" type="text/css" href="css/register.css" />
+</head>
+
+<body>
+
+<h1>Registration</h1>
+<div id="registerFormID" class="registerForm">
+
+<form action="action_page.php">
+<!--<label for="name">Ad Soyad</label>-->
+<input type="text" class="registerFormTxt" id="name" name="firstname" placeholder="Ad Soyad: Hasan Yılmaz">
+
+<!--<label for="username">Kullanıcı Adı</label>-->
+<input type="text" id="username" class="registerFormTxt" name="username" placeholder="Kullanıcı adı: yilmazHasan94">
+
+<!--<label for="ename">E-mail</label>-->
+<input type="text" id="email" name="lastname" class="registerFormTxt" placeholder=" e-mail: hasanyilmaz94@hotmail.com">
+
+<!--<label for="pnum">Telefon Numarası</label>-->
+<input type="text" id="pnum" class="registerFormTxt" name="lastname" placeholder="Telefon Numarası: 537 *** ** **">
+
+<!--<label for="address">Adres</label>-->
+<input type="text" id="address" class="registerFormTxt" name="lastname" placeholder="Adres :">
+
+<!--<label for="pet">Sahip olduğunuz bir hayvan var mı ? </label>-->
+<input type="text" id="pets" class="registerFormTxt" name="lastname" placeholder="Sahip olduğunuz bir hayvan var mı? örn: köpek..">
+
+<form>
+ <!-- <label for="address">Cinsiyet:    </label> -->
+  <input type="radio" name="gender" value="male" checked> Bay
+  <input type="radio" name="gender" value="female"> Bayan
+</form>
+
+<select id="country"  name="country">
+<option value="İstanbul">İstanbul</option>
+<option value="İzmir">İzmir</option>
+<option value="Ankara">Ankara</option>
+<option value="Kocaeli">Kocaeli</option>
+<option value="Adana">Adana</option>
+<option value="urfa">urfa</option>
+<option value="Erzincan">Erzincan</option>
+<option value="Sakarya">Sakarya</option>
+<option value="Giresun">Giresun</option>
+
+</select>
+
+<input type="submit" value="Kayıt Ol">
+</form>
+</div>
+
+
+</body>
+</html>
+
